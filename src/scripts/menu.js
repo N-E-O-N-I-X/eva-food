@@ -11,7 +11,7 @@ const menuData = {
       'Хлеб — 40 гр.',
       'Набор столовых приборов (вилка, нож, ложка, зубочистка, салфетка) — 1 шт.'
     ],
-    image: './src/images/monday.png'
+    image: '/src/images/monday.png'
   },
   tuesday: {
     calories: '6100 кДж / 1450 кКал',
@@ -25,7 +25,7 @@ const menuData = {
       'Хлеб — 40 гр.',
       'Набор столовых приборов — 1 шт.'
     ],
-    image: './src/images/tuesday.png'
+    image: '/src/images/tuesday.png'
   },
   wednesday: {
     calories: '6200 кДж / 1480 кКал',
@@ -39,7 +39,7 @@ const menuData = {
       'Хлеб — 40 гр.',
       'Набор столовых приборов — 1 шт.'
     ],
-    image: './src/images/wednesday.png'
+    image: '/src/images/wednesday.png'
   },
   thursday: {
     calories: '6400 кДж / 1530 кКал',
@@ -53,7 +53,7 @@ const menuData = {
       'Хлеб — 40 гр.',
       'Набор столовых приборов — 1 шт.'
     ],
-    image: './src/images/thursday.png'
+    image: '/src/images/thursday.png'
   },
   friday: {
     calories: '5900 кДж / 1410 кКал',
@@ -67,7 +67,7 @@ const menuData = {
       'Хлеб — 40 гр.',
       'Набор столовых приборов — 1 шт.'
     ],
-    image: './src/images/friday.png'
+    image: '/src/images/friday.png'
   },
   saturday: {
     calories: '6500 кДж / 1550 кКал',
@@ -81,7 +81,7 @@ const menuData = {
       'Хлеб — 40 гр.',
       'Набор столовых приборов — 1 шт.'
     ],
-    image: './src/images/saturday.png'
+    image: '/src/images/saturday.png'
   },
   sunday: {
     calories: '6000 кДж / 1435 кКал',
@@ -95,7 +95,7 @@ const menuData = {
       'Хлеб — 40 гр.',
       'Набор столовых приборов — 1 шт.'
     ],
-    image: './src/images/sunday.png'
+    image: '/src/images/sunday.png'
   }
 };
 
