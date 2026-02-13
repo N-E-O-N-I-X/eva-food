@@ -1,5 +1,5 @@
-const TELEGRAM_BOT_TOKEN = import.meta.env.BOT_API;
-const TELEGRAM_CHAT_IDS = import.meta.env.CHAT_ID.split(',');
+const TELEGRAM_BOT_TOKEN = import.meta.env.VITE_BOT_API;
+const TELEGRAM_CHAT_IDS = import.meta.env.VITE_CHAT_ID.split(',');
 
 document
   .getElementById("orderForm")
