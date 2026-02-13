@@ -1,7 +1,5 @@
-import { BOT_API, CHAT_ID } from '../../config.js';
-
-const TELEGRAM_BOT_TOKEN = BOT_API;
-const TELEGRAM_CHAT_IDS = CHAT_ID;
+const TELEGRAM_BOT_TOKEN = import.meta.env.VITE_BOT_API;
+const TELEGRAM_CHAT_IDS = import.meta.env.VITE_CHAT_ID.split(',');
 
 document
   .getElementById("orderForm")
