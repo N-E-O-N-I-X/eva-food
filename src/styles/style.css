@@ -165,7 +165,7 @@ button {
   height: 100%;
   object-fit: cover;
   display: none;
-   opacity: 0.75; /* Новая строка: прозрачность всей картинки */
+   opacity: 0.75;
   mask-image: linear-gradient(to bottom, 
     transparent 0%, 
     black 15%, 
@@ -177,10 +177,10 @@ button {
     black 10%, 
     black 90%, 
     transparent 100%
-  ); /* Новая строка: размытие со всех сторон */
-  mask-composite: intersect; /* Новая строка */
+  );
+  mask-composite: intersect;
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%), linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%); /* Новая строка */
-  -webkit-mask-composite: source-in; /* Новая строка */
+  -webkit-mask-composite: source-in;
 }
 
 @media (width < 560px) {
@@ -675,8 +675,12 @@ button {
 }
 
 @media (width < 700px) {
-  .partners-track {
-    animation: scroll-partners 18s linear infinite;
+ .partners-track {
+    animation: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
   }
 }
 
@@ -692,6 +696,12 @@ button {
 @media (width < 700px) {
   .partner-card {
     margin: 0;
+  }
+}
+
+@media (width < 700px) {
+  .hidden-card {
+    display: none;
   }
 }
 
