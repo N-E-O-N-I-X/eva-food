@@ -1,9 +1,12 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/',
+  publicDir: 'public',
+  
   build: {
-    minify: false,
-    sourcemap: false
+    assetsInclude: ['**/*.png', '**/*.jpg'],
+    rollupOptions: {
+      input: 'index.html'
+    }
   }
 })
