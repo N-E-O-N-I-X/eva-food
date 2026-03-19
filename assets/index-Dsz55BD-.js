@@ -42,8 +42,8 @@ document.getElementById("phone-btn").addEventListener("click", function() {
     console.error("Ошибка копирования: ", err);
   });
 });
-const TELEGRAM_BOT_TOKEN = "8296913129:AAE2CdJKNJYWxiCr32GwYwj3wOFRHdy1_VE";
-const TELEGRAM_CHAT_IDS = "749274255,948227465".split(",");
+const TELEGRAM_BOT_TOKEN = "";
+const TELEGRAM_CHAT_IDS = "".split(",");
 document.getElementById("orderForm").addEventListener("submit", async function(e) {
   e.preventDefault();
   const name = document.getElementById("name").value;
